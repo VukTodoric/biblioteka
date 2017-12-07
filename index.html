@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="jumbotron text-center">
+    <h2>Biblioteka</h2>
+    <button id="booksBtn" class="btn btn-info" type="button" name="button">Books</button>
+    <button id="nobelBtn" class="btn btn-info" type="button" name="button">Nobel prize winners</button>
+  </div>
+
+  <div id="booksRow" class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h3 class="page-header">Books</h3>
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Year</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="books">
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  <div id="nobelRow" class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h3 class="page-header">Nobel Winners</h3>
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Country</th>
+                <th>Author</th>
+                <th>Award</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="nobel">
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="main.js">
+  </script>
+</body>
+
+</html>
